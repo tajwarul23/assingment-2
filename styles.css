@@ -6,6 +6,7 @@ body{
 }
 .moto>img{
     width: 50%;
+    padding-right: 20px;
 }
 .top-section{
     display: grid;
