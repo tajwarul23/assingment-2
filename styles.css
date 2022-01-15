@@ -1,9 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.moto{
-    margin: 0px;
-}
+
+
 .moto>img{
     width: 50%;
     padding-right: 20px;
@@ -95,6 +94,10 @@ text-decoration: none;
                display: grid;
                grid-template-columns: repeat(1,1fr);          
             }
+            .moto>img{
+                width: 50%;
+                padding-right: 20px;
+            }
             .top-img:hover{transform: rotate(60deg);}
             .top-section img{
                 width: 100%;
@@ -123,6 +126,10 @@ text-decoration: none;
             display: grid;
             grid-template-columns: repeat(2,1fr);
         }
+        .moto>img{
+            width: 50%;
+            padding-right: 20px;
+        }
         .top-img:hover{transform: rotate(60deg);}
         .company-logo{
             display: grid;
@@ -148,6 +155,10 @@ text-decoration: none;
         .top-section{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+        }
+        .moto>img{
+            width: 50%;
+            padding-right: 20px;
         }
         .top-img{transform: rotate(15deg) scale(1.4) ;
         -webkit-transform: rotate(15deg) scale(1.4);
