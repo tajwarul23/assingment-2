@@ -142,7 +142,15 @@ text-decoration: none;
             display: grid;
             grid-template-columns: repeat(2,1fr);
         }
-        .top-img:hover{transform: rotate(60deg);}
+        .top-img{transform: rotate(15deg) scale(1.4) ;
+        -webkit-transform: rotate(15deg) scale(1.4);
+        transition: .3s ease-in-out;
+        -webkit-transform:.3s ease-in-out ;
+        }
+        .top-img:hover{
+            transform: rotate(0) scale(1);
+            -webkit-transform: rotate(0) scale(1) ;
+        }
         .company-logo{
             display: grid;
             grid-template-columns: repeat(7,1fr);}
