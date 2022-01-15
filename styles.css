@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.moto{
+    margin: 0px;
+}
 .top-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
